@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
 import FooterBanner from './components/FooterBanner.js';
-import CollectionBanner from './components/CollectionBanner.js';
+import CollectionBannerElectric from './components/CollectionBannerElectric';
 import CollectionHeadingOriginal from './components/CollectionHeadingOriginal.js';
 import CollectionHeadingCustom from './components/CollectionHeadingCustom.js';
 import CollectionHeadingMurphyLab from './components/CollectionHeadingMurphyLab.js';
+import CollectionBannerAcoustic from './components/CollectionBannerAcoustic';
 import CollectionHeadingJ45 from './components/CollectionHeadingJ45.js';
 import CollectionHeadingHummingbird from './components/CollectionHeadingHummingbird.js';
 import CollectionHeadingHistoricCustom from './components/CollectionHeadingHistoricCustom.js';
@@ -27,28 +28,31 @@ function App() {
           <Navbar />
         </Route>
         <Route exact path='/'>
-          <CollectionBanner />
+          <CollectionBannerElectric />
           <CollectionHeadingOriginal />
           <Original />
           <CollectionHeadingCustom />
           <CustomShop />
           <CollectionHeadingMurphyLab />
           <MurphyLab />
+          <FooterBanner />
         </Route>
         <Route path='/acoustic'>
+          <CollectionBannerAcoustic />
           <CollectionHeadingJ45 />
           <J45 />
           <CollectionHeadingHummingbird />
           <Hummingbird />
           <CollectionHeadingHistoricCustom />
           <HistoricCustom />
+          <FooterBanner />
         </Route>
         <Route path='/cart'>
           <Cart />
         </Route>
-        <Route>
+        {/* <Route>
           <FooterBanner />
-        </Route>
+        </Route> */}
       </Router>
     </div>
   );

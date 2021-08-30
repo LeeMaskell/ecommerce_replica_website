@@ -2,7 +2,7 @@ import { createSlice } from 'react-redux';
 
 
 let initialState = [];
-// reducer for original guitars (use for all guitars?)
+// reducer for original guitars (use for all guitars)
 export const globalReducer = (state = initialState, action) => {
     console.log(action);
     switch (action.type) {

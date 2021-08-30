@@ -10,6 +10,7 @@ export default function Original() {
     const dispatch = useDispatch();
     return (
         <div className="models">
+            <div className="models__flex">
             {initialState.map((item) => (
                 <div className="model-card">
                     <div className="model-card__flex-container">
@@ -21,6 +22,7 @@ export default function Original() {
                 </div>
                 
             ))}
+            </div>
         </div>
     )
 }

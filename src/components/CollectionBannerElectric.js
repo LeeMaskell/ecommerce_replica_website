@@ -1,4 +1,4 @@
-const CollectionBanner = () => {
+const CollectionBannerElectric = () => {
     return ( 
         <div className="collection-banner">
             <h1>Explore The ES Collections</h1>
@@ -6,4 +6,4 @@ const CollectionBanner = () => {
      );
 }
  
-export default CollectionBanner;
+export default CollectionBannerElectric;

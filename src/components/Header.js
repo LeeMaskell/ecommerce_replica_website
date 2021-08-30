@@ -6,7 +6,7 @@ const Header = () => {
             <div className="header__top-bar">
                 <div className="header__top-bar--actions">
                     <h5 className="right-border-gray">FIND A DEALER</h5>
-                    <img src={us_flag} alt="US flag"></img>
+                    <img className="header__flag" src={us_flag} alt="US flag"></img>
                     <h5 title="Feature Unavailable">UNITED STATES</h5>
                 </div>
             </div>

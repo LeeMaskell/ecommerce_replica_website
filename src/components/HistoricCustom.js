@@ -10,6 +10,7 @@ export default function HistoricCustom() {
     const dispatch = useDispatch();
     return (
         <div className="models">
+            <div className="models__flex">
             {initialState.map((item) => (
                 <div className="model-card">
                     <div className="model-card__flex-container">
@@ -20,6 +21,7 @@ export default function HistoricCustom() {
                     <AddButton onClickHandler={() => dispatch(add(item))}>Add to Cart</AddButton>
                 </div>
             ))}
+            </div>
         </div>
     )
 }

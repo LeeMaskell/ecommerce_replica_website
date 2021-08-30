@@ -5,7 +5,7 @@ import CartDefault from './CartDefault.js';
 import { remove } from '../containers/globalSlice.js';
 
 const Cart = () => {
-    const state = useSelector(selectData);
+    const state = useSelector(selectData); // this tells the component which data to use. In this case the data added from 'Original'
     const dispatch = useDispatch();
 
     const sumPrices = () => {
@@ -36,9 +36,9 @@ const Cart = () => {
                 }
             </div>
             <div className="total-price">
-                    <h1>Total: ${sumPrices()} </h1>
-                </div>
-        </div> 
+                <h1 id="total-price__heading">Total: ${sumPrices()} </h1>
+            </div>
+        </div>
     );
 }
 
