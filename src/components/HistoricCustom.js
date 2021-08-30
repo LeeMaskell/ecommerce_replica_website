@@ -1,3 +1,4 @@
+import '../styles/models.css';
 import React from 'react';
 import { useState } from 'react';
 import { historicCustom } from '../containers/Data';

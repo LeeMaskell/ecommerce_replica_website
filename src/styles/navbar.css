@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #292828;
+  height: 85px;
+}
+.navbar__flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 4%;
+}
+#gibson_logo {
+  height: 100%;
+  box-shadow: 0 4px 5px -1px #292828;
+}
+.navbar__primary-nav {
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+.navbar__primary-nav--menu-item {
+  display: flex;
+  list-style: none;
+}
+.navbar__primary-nav--menu-item li {
+  font-size: 1rem;
+  color: white;
+  margin-right: 2rem;
+}
+.fa-shopping-cart {
+  font-size: 1.25rem;
+}
+.cart-icon {
+  font-size: 0.75rem;
+  color: white;
+}
+label {
+  display: none;
+}
+#toggle {
+  display: none;
+}
+.navbar__responsive-nav {
+  display: none;
+}
+@media only screen and (max-width: 830px) {
+  .navbar__flex-container {
+    margin-left: 0;
+  }
+  .navbar__primary-nav {
+    display: none;
+  }
+  .navbar__responsive-nav {
+    display: inline;
+    position: absolute;
+    top: 4%;
+    width: 100%;
+  }
+  label {
+    display: block;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5%;
+  }
+  img,
+  #gibson-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar__responsive-nav--menu {
+    display: none;
+    flex-direction: column;
+    line-height: 70px;
+    color: white;
+    background-color: #292828;
+    margin-top: 2%;
+    text-align: center;
+  }
+  #toggle:checked + .navbar__responsive-nav--menu {
+    display: flex;
+  }
+  .responsive-link {
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  .cart-icon {
+    display: none;
+  }
+}

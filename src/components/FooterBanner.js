@@ -1,3 +1,5 @@
+import '../styles/footer.css';
+
 const FooterBanner = () => {
     return (
         <div className="footer-banner">

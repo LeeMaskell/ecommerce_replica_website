@@ -1,4 +1,5 @@
 import us_flag from '../assests/header_images/us_flag.png';
+import '../styles/header.css';
 
 const Header = () => {
     return ( 

@@ -1,3 +1,4 @@
+import '../styles/navbar.css';
 import Gibson_header_logo from '../assests/header_images/Gibson_header_logo.png';
 import { Link } from 'react-router-dom';
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";

@@ -1,0 +1,63 @@
+.footer-banner {
+  background-color: white;
+  color: #000;
+  padding: 4% 0 0 0;
+}
+.footer-banner__heading {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 23px;
+}
+input {
+  width: 30%;
+  height: 2rem;
+  border: none;
+  color: inherit;
+  border-bottom: solid 1px;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 11%;
+  background-color: transparent;
+  font-size: 1rem;
+  outline: 0;
+  padding: 0.5% 0;
+}
+.subscribe-btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 15%;
+  padding: 0.5rem 0;
+  height: 100%;
+}
+.footer-banner__input-flex {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+.footer-banner__border {
+  background-color: black;
+  height: 3rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 480px) {
+  .footer-banner__heading {
+    text-align: center;
+  }
+  input {
+    width: 60%;
+    margin-left: 4%;
+    font-size: 1rem;
+  }
+  .subscribe-btn {
+    padding: 0.7rem;
+    width: 30%;
+  }
+  #total-price__heading {
+    display: block;
+    text-align: center;
+  }
+}

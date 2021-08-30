@@ -1,0 +1,32 @@
+.collection-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2e2e2;
+  padding: 1rem 0;
+}
+.collection-heading__header {
+  font-family: "Oswald";
+  font-size: 1.75rem;
+  margin-left: 11%;
+}
+.explore-btn {
+  font-family: "Lato";
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #60769a;
+  border: 1px solid #60769a;
+  border-radius: 0.2rem;
+  padding: 0 0.5rem;
+  line-height: 1.5;
+  margin-right: 11%;
+  height: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  h2 {
+    margin: auto;
+  }
+  .explore-btn {
+    display: none;
+  }
+}

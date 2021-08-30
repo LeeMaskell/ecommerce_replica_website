@@ -1,0 +1,29 @@
+.header__top-bar{
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__top-bar--actions{
+  display: flex;
+  justify-content: center;
+  margin: 0.75% 5% 0.75% 5%;
+}
+h5{
+  font-size: 0.725em;
+  font-weight: bold;
+  color: white;
+  padding-left: 0.5rem;
+}
+.right-border-gray{
+  border-right: 1px solid gray;
+  padding-right: 1rem;
+}
+img{
+  margin-left: 1rem;
+  height: 0.75rem;
+}
+@media only screen and (max-width: 830px) {
+  .header__flag{
+    margin-left: 1rem;
+  }
+}

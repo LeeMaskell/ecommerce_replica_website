@@ -1,3 +1,5 @@
+import '../styles/cart.css';
+
 const CartDefault = () => {
     return ( 
         <div className="cart__default-text">

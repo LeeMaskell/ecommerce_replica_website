@@ -1,3 +1,5 @@
+import '../styles/collectionBanner.css';
+
 const CollectionBannerElectric = () => {
     return ( 
         <div className="collection-banner">

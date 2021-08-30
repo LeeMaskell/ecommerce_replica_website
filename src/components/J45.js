@@ -1,3 +1,4 @@
+import '../styles/models.css';
 import React from 'react';
 import { useState } from 'react';
 import { J45Acoustic } from '../containers/Data';
