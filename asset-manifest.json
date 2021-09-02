@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecommerce_replica_website/static/css/main.47cbab44.chunk.css",
+    "main.css": "/ecommerce_replica_website/static/css/main.37cec3d0.chunk.css",
     "main.js": "/ecommerce_replica_website/static/js/main.261c9771.chunk.js",
     "main.js.map": "/ecommerce_replica_website/static/js/main.261c9771.chunk.js.map",
     "runtime-main.js": "/ecommerce_replica_website/static/js/runtime-main.8fb71f43.js",
@@ -10,13 +10,13 @@
     "static/js/3.197704c4.chunk.js": "/ecommerce_replica_website/static/js/3.197704c4.chunk.js",
     "static/js/3.197704c4.chunk.js.map": "/ecommerce_replica_website/static/js/3.197704c4.chunk.js.map",
     "index.html": "/ecommerce_replica_website/index.html",
-    "static/css/main.47cbab44.chunk.css.map": "/ecommerce_replica_website/static/css/main.47cbab44.chunk.css.map",
+    "static/css/main.37cec3d0.chunk.css.map": "/ecommerce_replica_website/static/css/main.37cec3d0.chunk.css.map",
     "static/js/2.cea2972a.chunk.js.LICENSE.txt": "/ecommerce_replica_website/static/js/2.cea2972a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8fb71f43.js",
     "static/js/2.cea2972a.chunk.js",
-    "static/css/main.47cbab44.chunk.css",
+    "static/css/main.37cec3d0.chunk.css",
     "static/js/main.261c9771.chunk.js"
   ]
 }
