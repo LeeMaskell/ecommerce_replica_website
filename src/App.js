@@ -27,7 +27,7 @@ function App() {
           <Header />
           <Navbar />
         </Route>
-        <Route exact path='/'>
+        <Route exact path='/ecommerce_replica_website'>
           <CollectionBannerElectric />
           <CollectionHeadingOriginal />
           <Original />
@@ -37,7 +37,7 @@ function App() {
           <MurphyLab />
           <FooterBanner />
         </Route>
-        <Route path='/acoustic'>
+        <Route path='/ecommerce_replica_website/acoustic'>
           <CollectionBannerAcoustic />
           <CollectionHeadingJ45 />
           <J45 />
@@ -47,7 +47,7 @@ function App() {
           <HistoricCustom />
           <FooterBanner />
         </Route>
-        <Route path='/cart'>
+        <Route path='/ecommerce_replica_website/cart'>
           <Cart />
         </Route>
         {/* <Route>
