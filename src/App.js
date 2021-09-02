@@ -18,16 +18,17 @@ import J45 from './components/J45.js';
 import Hummingbird from './components/Hummingbird.js';
 import HistoricCustom from './components/HistoricCustom.js';
 import Cart from './components/Cart.js';
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename='/'>
         <Route>
           <Header />
           <Navbar />
         </Route>
-        <Route exact path='/ecommerce_replica_website'>
+        <Route exact path='/'>
           <CollectionBannerElectric />
           <CollectionHeadingOriginal />
           <Original />
@@ -37,7 +38,7 @@ function App() {
           <MurphyLab />
           <FooterBanner />
         </Route>
-        <Route path='/ecommerce_replica_website/acoustic'>
+        <Route path='/acoustic'>
           <CollectionBannerAcoustic />
           <CollectionHeadingJ45 />
           <J45 />
@@ -47,13 +48,15 @@ function App() {
           <HistoricCustom />
           <FooterBanner />
         </Route>
-        <Route path='/ecommerce_replica_website/cart'>
+        <Route path='/cart'>
           <Cart />
         </Route>
         {/* <Route>
           <FooterBanner />
         </Route> */}
-      </Router>
+  
+  
+    </HashRouter>
     </div>
   );
 }
